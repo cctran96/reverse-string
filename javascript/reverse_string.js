@@ -1,5 +1,7 @@
 function reverseString(str) {
-  // type your code here
+  ans = ''
+  str.split('').forEach(c => ans = c + ans)
+  return ans
 }
 
 if (require.main === module) {

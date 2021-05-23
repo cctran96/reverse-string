@@ -1,5 +1,7 @@
 def reverse_string(str)
-  # type your code in here
+  ans = ''
+  str.split('').each{|i| ans = i + ans}
+  ans
 end
 
 if __FILE__ == $PROGRAM_NAME
